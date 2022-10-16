@@ -1,0 +1,83 @@
+body{
+  background-image: url(./img/2.jpg);
+  font-family: 'Aclonica', sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+
+.Container {
+  height: 460px;
+  width: 650px;
+  color: white;
+  margin: auto;
+  border-radius: 30px;
+  margin-bottom: 35px;
+}
+
+.Container:hover {
+  box-shadow: 0 0 10px cyan, 0 0 40px cyan, 0 0 80px cyan;
+}
+
+.input-container {
+  margin-bottom: 15px;
+}
+
+.input-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-container input {
+  width: 45%;
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 7px;
+}
+
+.input-container input:hover {
+  border: none;
+  box-shadow: 0 0 10px cyan, 0 0 40px cyan, 0 0 80px cyan;
+}
+
+
+.input-container.checkbox label {
+  display: inline-block;
+}
+
+
+.List {
+  color: white;
+  margin: auto;
+  border-radius: 30px;
+}
+
+.List:hover {
+  box-shadow: 0 0 10px cyan, 0 0 40px cyan, 0 0 80px cyan;
+}
+
+.ListContainer {
+  text-align: center;
+  margin: auto;
+  border: 2px solid black;
+  width: 300px;
+  height: 107px;
+  border-radius: 25px;
+  margin-bottom: 10px;
+}
+
+.ListContainer:hover {
+  background: cyan;
+  color: black;
+  box-shadow: 0 0 10px cyan, 0 0 40px cyan, 0 0 80px cyan;
+}
+
+button {
+  cursor: pointer;
+  background: transparent;
+  padding: 7px;
+  margin-right: 10px;
+  border-radius: 7px;
+}
